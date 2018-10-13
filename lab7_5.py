@@ -20,7 +20,9 @@ def find_vowel(text: str) -> str:
     """Find in all text vowel letter"""
 
     vowel = text.count('a') + text.count('o') + text.count('u') +\
-    text.count('i') + text.count('e') + text.count("y")
+    text.count('i') + text.count('e') + text.count("y") +\
+    text.count('A') + text.count('O') + text.count('U') +\
+    text.count('I') + text.count('E') + text.count('Y')
 
     return(vowel)
 
