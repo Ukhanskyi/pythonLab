@@ -19,6 +19,8 @@
 
 
 def check_lucky_ticket(number: str) -> bool:
+    """Check is ticket lucky """
+
     halfing_number = int(len(number) / 2)
     first_half = list(map(int, number[0 : halfing_number]))
     second_half = list(map(int, number[-halfing_number :]))
