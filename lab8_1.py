@@ -12,11 +12,9 @@
 # позиції. Нумерація людей починається з одиниці.
 
 
-import itertools
+def joseph_flaw(number: int) -> int:
+    """kills every third person """
 
-def joseph_flav(number: int, step: int) -> int:
-	"""kills every third person """
-	
     lst = list(range(1, number + 1))
     count = 0
     while len(lst) > 1:
@@ -24,7 +22,9 @@ def joseph_flav(number: int, step: int) -> int:
         if count % 3:
             lst.append(first)
             count = 0
-        else: count += 1
+        else:
+            count += 1
     return lst
 
-print(joseph_flav(10, 3))
+
+print(joseph_flaw(10))
