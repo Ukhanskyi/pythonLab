@@ -1,6 +1,12 @@
 #!/usr/bin/env python3
+# -*-codding:utf-8 -*-
 
-import math
+
+# Написати програму яка приймає коефіцієнти a, b, c квадратного рівняння
+# a * x^2 + b * x + c = 0
+# і обчислює його корені.
+# Тест кейс: a = 1,  b = 5, c = 6 корені -3, -2
+
 
 a = int(input("Input a: "))
 b = int(input("Input b: "))

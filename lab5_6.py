@@ -1,4 +1,9 @@
 #!/usr/bin/env python3
+# -*-codding:utf-8 -*-
+
+
+# Написати програму яка приймає довжини трьох сторін трикутника і видає відповідь чи може такий трикутник існувати.
+
 
 first_side = int(input('Аirst side of triangle: '))
 second_side = int(input('Second side of triangle: '))

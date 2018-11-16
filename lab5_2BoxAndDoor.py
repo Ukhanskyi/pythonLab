@@ -1,4 +1,10 @@
 #!/usr/bin/env python3
+# -*-codding:utf-8 -*-
+
+
+# Let h and w be the height and the width dimensions of the rectangular door. Let a, b, c be the dimensions of the box.
+# Write a program that determines if there is some way to fit the box through the door.
+
 
 h = float(input('Enter h door: '))
 w = float(input('Enter w door: '))
