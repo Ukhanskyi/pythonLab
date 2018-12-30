@@ -18,13 +18,13 @@ from random import randint
 def encrypt_text_in_image():
     """ Codding your information in the image"""
 
-    keys = []  # Тут будуть знаходитись ключі
-    img = Image.open(input("path to image: "))  # Створюєм об'єкт зображення
-    draw = ImageDraw.Draw(img)  # Об'єкт малювання
-    width = img.size[0]  # ширина
-    height = img.size[1]  # висота
-    pix = img.load()  # всі пікселі тут
-    f = open('keys.txt', 'w')  # текстовий файл для ключів
+    keys = []                                        # Тут будуть знаходитись ключі
+    img = Image.open(input("path to image: "))       # Створюєм об'єкт зображення
+    draw = ImageDraw.Draw(img)                       # Об'єкт малювання
+    width = img.size[0]                              # ширина
+    height = img.size[1]                             # висота
+    pix = img.load()                                 # всі пікселі тут
+    f = open('keys.txt', 'w')                        # текстовий файл для ключів
 
     for elem in ([ord(elem) for elem in input("text here: ")]):
         key = (randint(1, width - 10), randint(1, height - 10))
