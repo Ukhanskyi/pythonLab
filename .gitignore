@@ -1,0 +1,12 @@
+# Created by .ignore support plugin (hsz.mobi)
+### Example user template template
+### Example user template
+
+# IntelliJ project files
+.idea
+*.iml
+out
+gen
+Будет удалено lab10/code_img.txt
+Будет удалено lab11/2017_05_07_nginx.txt
+Будет удалено lab12/output.txt
